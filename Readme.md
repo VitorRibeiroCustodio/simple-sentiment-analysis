@@ -31,4 +31,4 @@ Requirements:
 
  - [ ] Use samples with negative feelings, *e.g*, 'I don't hate you :)'  
 
- - [] Search for better classifier methods, for now we are using NaiveBayesClassifier.
+ - [ ] Search for better classifier methods, for now we are using NaiveBayesClassifier.
