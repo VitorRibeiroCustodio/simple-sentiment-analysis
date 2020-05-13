@@ -108,8 +108,6 @@ test_data = dataset[7000:]
 
 classifier = NaiveBayesClassifier.train(train_data)
 
-print("Accuracy is:", classify.accuracy(classifier, test_data))
-
 custom_tweet = "I like you :)"
 
 custom_tokens = remove_noise(word_tokenize(custom_tweet))

@@ -20,6 +20,8 @@ Requirements:
 
 - nltk.download('stopwords')
 
+- pip install flask
+
 
 **TODO:**
 
@@ -32,3 +34,5 @@ Requirements:
  - [ ] Use samples with negative feelings, *e.g*, 'I don't hate you :)'  
 
  - [ ] Search for better classifier methods, for now we are using NaiveBayesClassifier.
+
+ - [ ] Create Endpoint to analyse text.
