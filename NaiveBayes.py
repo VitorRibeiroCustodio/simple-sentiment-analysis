@@ -19,23 +19,6 @@ stop_words = stopwords.words('english')
 # Tokenizing the Data
 tweet_tokens = twitter_samples.tokenized('positive_tweets.json')
 
-# Normalizing the Data - Converting a word to its canonical form
-# could be used instead of remove_noise function
-
-# def lemmatize_sentence(tokens):
-#     lemmatizer = WordNetLemmatizer()
-#     lemmatized_sentence = []
-#     for word, tag in pos_tag(tokens):
-#         if tag.startswith('NN'):
-#             pos = 'n'
-#         elif tag.startswith('VB'):
-#             pos = 'v'
-#         else:
-#             pos = 'a'
-#         lemmatized_sentence.append(lemmatizer.lemmatize(word, pos))
-#     return lemmatized_sentence
-
-
 
 # Remove 'Noise' from the Data
 def remove_noise(tweet_tokens, stop_words = ()):
